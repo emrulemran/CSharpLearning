@@ -35,6 +35,13 @@ namespace SeleniumClass
                 .SendKeys("x")
                 .SendKeys(lName, "v")
                 .KeyUp(Keys.Control).Build().Perform();
+
+
+            // here are 4 lines of code
+            int x = 12;
+            string name = "nyc";
+            char c = 'z';
+            bool isRaining = false;
         }
     }
 }
